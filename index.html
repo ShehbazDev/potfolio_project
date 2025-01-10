@@ -5,17 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fixed Navbar Example</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="">
+<body class="overflow-x-hidden">
 
     <!-- Navbar -->
     <nav class="   w-full ">
         <div class="flex flex-row bg-[#1A0B2E] items-center bg justify-center">
             <!-- Logo -->
-            <div>
-                <img src="./Logo.svg" alt="Logo">
+            <div class="">
+                <img src="./Logo.svg" alt="Logo" class=" ">
+
             </div>
 
             <!-- Navigation Links -->
@@ -28,33 +29,130 @@
     </nav>
 
     <!-- 2nd section -->
-    <section class="bg-[#13032a] md:pt-40 p-6">
-        
+    <section class="bg-[#11071f] md:pt-40 p-6">
+
         <div class="flex md:items-center md:justify-center  justify-start items-end  ">
-          <img src="./Vector.png" alt="" class="hidden md:block ">
-          <h1 class="text-white text-2xl">Hello! I Am <span class="text-[#7127BA]">Muhammad Shehbaz</span></h1> 
+            <img src="./Vector.png" alt="" class="hidden md:block ">
+            <h1 class="text-white text-sm ">Hello! I Am <span class="text-[#7127BA]">Muhammad Shehbaz</span></h1>
         </div>
         <div class="flex gap-6 items-center justify-center md:flex-row flex-col ">
-           
-            <div class="">
-                <img src="./Me.png" alt="">
+
+            <div class="relative">
+                <img src="./rounded_image.png" alt="" class="relative z-10 h-[18rem] w-[18rem]">
+                <div class="absolute bg-[#7127BA] blur-3xl rounded-full p-28 bottom-10 left-8 "></div>
             </div>
             <div class="flex flex-col gap-6">
                 <p class="text-white text-sm">I am a Developer who</p>
                 <h1 class="text-white text-4xl relative">Judges code by its structure <br>
-                    by its  <span class="text-[#7127BA]  ">logic   </span>           ...
+                    by its <span class="text-[#7127BA]  ">logic </span> ...
                     <img src="./circle.svg" alt="" class="absolute left-16 top-10 w-40 md:block hidden">
                 </h1>
-                   
+
                 <p class="text-white text-sm">Because if the structure does not impress you, what else can?</p>
-               
+
             </div>
 
+
+        </div>
+    </section>
+
+    <!-- 2nd section -->
+    <section class="bg-[#11071f] p-4">
+        <div class="flex flex-col items-center justify-center gap-10 ">
+            <div class="md:pr-40">
+                <h1 class="text-white text-4xl">I'm a Software Engineer.| </h1>
+                <h2 class="text-white">Currently, I'm a Software Engineer at Triangle Software Technologies!
+                </h2>
+            </div>
             <div>
+                <h1 class="text-white  pr-20 md:text-start">
+                    I’m a self-taught developer currently learning web development. <br> I have a keen interest in
+                    building user-friendly web solutions <br>and am actively working on personal projects to improve my
+                    skills.
+
+                </h1>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!-- card section (3) -->
+
+    <section class="bg-[#11071f] p-4">
+        <div class=" flex items-start justify-start">
+            <h1 class="text-white text-4xl pt-20  md:pl-40">Work Experience</h1>
+        </div>
+
+        <div class="pt-10 flex flex-wrap items-center justify-center gap-4 relative ">
+            <div class="absolute bg-[#7127BA] blur-3xl rounded-full p-60  left-[24rem] md:block hidden"></div>
+            <div class="w-fit border border-[#4F228D] flex items-center rounded-md bg-[#2C1250] min-h-52 p-4 tranision-all duration-200 hover:scale-105  z-10">
                 
+                <div class="flex items-center">
+                    <div>
+                        <img src="./Group 1.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-2 ">
+                        <h1 class="text-white text-2xl font-bold">Practiced version control</h1>
+                        <h2 class="text-white text-sm">Take your client onboard seamlessly by our amazing <br>
+                            tool of digital onboard process.</h2>
+                        <button class="text-white border border-[#4F228D] p-2 py-2 rounded-lg w-48">Learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-fit border border-[#4F228D] rounded-md bg-[#2C1250] flex items-center min-h-52 p-4 tranision-all duration-200 hover:scale-105 z-10">
+                <div class="flex">
+                    <div>
+                        <img src="./Rectangle.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h1 class="text-white text-2xl font-bold">Built a personal portfolio website</h1>
+                        <h2 class="text-white text-sm">Take your client onboard seamlessly by our amazing <br>
+                            tool of digital onboard process.</h2>
+                        <button class="text-white border border-[#4F228D] p-2 py-2 rounded-lg w-48">Learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-fit border border-[#4F228D] rounded-md bg-[#2C1250] min-h-52 flex items-center p-4 tranision-all duration-200 hover:scale-105 z-10">
+                <div class="flex">
+                    <div>
+                        <img src="./Rectangle (1).png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h1 class="text-white text-2xl font-bold">Designed responsive web pages.</h1>
+                        <h2 class="text-white text-sm">Take your client onboard seamlessly by our amazing <br>
+                            tool of digital onboard process.</h2>
+                        <button class="text-white border border-[#4F228D] p-2 py-2 rounded-lg w-48">Learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-fit border border-[#4F228D] rounded-md bg-[#2C1250] min-h-52 flex items-center p-4 tranision-all duration-200 hover:scale-105 z-10">
+                <div class="flex">
+                    <div>
+                        <img src="./Icons.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h1 class="text-white text-2xl font-bold">Used Tailwind CSS for styling</h1>
+                        <h2 class="text-white text-sm">Take your client onboard seamlessly by our amazing <br>
+                            tool of digital onboard process.</h2>
+                        <button class="text-white border border-[#4F228D] p-2 py-2 rounded-lg w-48">Learn more</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <footer class="bg-[#11071f] p-4 ">
+        <div>
+            
+            <div class="flex items-center justify-center pt-10">
+                <img src="./Group 1910.png" alt="">
+            </div>
+        </div>
+    </footer>
 
 </body>
 
